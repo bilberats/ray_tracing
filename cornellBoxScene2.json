@@ -1,0 +1,326 @@
+{
+  "camera": {
+    "width": 25,
+    "height": 25,
+    "position": {
+      "x": 278,
+      "y": 273,
+      "z": -800
+    },
+    "angleX": -1.5708,
+    "angleY": 0,
+    "angleZ": 0,
+    "focalDistance": 35,
+    "focalLength": 100,
+    "apertureSize": 1
+  },
+  "materials": [
+    {
+      "roughness": 0,
+      "metallic": 0,
+      "emittance": 1,
+      "albedo": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 1,
+      "metallic": 1,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 0,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 1,
+      "metallic": 1,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 0,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0,
+      "metallic": 1,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 0
+      }
+    },
+    {
+      "roughness": 0,
+      "metallic": 1,
+      "emittance": 0,
+      "albedo": {
+        "r": 0,
+        "g": 1,
+        "b": 0
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 0
+      }
+    }
+  ],
+  "shapes": [
+    {"shapeType": "sphere",
+      "center": {
+        "x": 150,
+        "y": 150,
+        "z": 230
+      },
+      "radius": 100,
+      "materialIndex": 2
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 342,
+        "y": 548.5,
+        "z": 227
+      },
+      "pointB": {
+        "x": 343,
+        "y": 548.5,
+        "z": 332
+      },
+      "pointC": {
+        "x": 213,
+        "y": 548.5,
+        "z": 332
+      },
+      "materialIndex": 0
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 342,
+        "y": 548.5,
+        "z": 227
+      },
+      "pointB": {
+        "x": 213,
+        "y": 548.5,
+        "z": 332
+      },
+      "pointC": {
+        "x": 213,
+        "y": 548.5,
+        "z": 227
+      },
+      "materialIndex": 0
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 552.8,
+        "y": 0,
+        "z": 0
+      },
+      "pointB": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "pointC": {
+        "x": 0,
+        "y": 0,
+        "z": 559.2
+      },
+      "materialIndex": 1
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 552.8,
+        "y": 0,
+        "z": 0
+      },
+      "pointB": {
+        "x": 0,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 549.6,
+        "y": 0,
+        "z": 559.2
+      },
+      "materialIndex": 1
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 556,
+        "y": 548.8,
+        "z": 0
+      },
+      "pointB": {
+        "x": 556,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 0,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "materialIndex": 0
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 556,
+        "y": 548.8,
+        "z": 0
+      },
+      "pointB": {
+        "x": 0,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 0,
+        "y": 548.8,
+        "z": 0
+      },
+      "materialIndex": 0
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 549.6,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointB": {
+        "x": 0,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 0,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "materialIndex": 2
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 549.6,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointB": {
+        "x": 0,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 556,
+        "y": 548.8,
+        "z": 559.2
+      },
+      "materialIndex":2
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 0,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointB": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "pointC": {
+        "x": 0,
+        "y": 548.8,
+        "z": 0
+      },
+      "materialIndex": 4
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 0,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointB": {
+        "x": 0,
+        "y": 548.8,
+        "z": 0
+      },
+      "pointC": {
+        "x": 0,
+        "y": 548.8,
+        "z": 592.2
+      },
+      "materialIndex": 4
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 552.8,
+        "y": 0,
+        "z": 0
+      },
+      "pointB": {
+        "x": 549.6,
+        "y": 0,
+        "z": 559.2
+      },
+      "pointC": {
+        "x": 556,
+        "y": 548.8,
+        "z": 592.2
+      },
+      "materialIndex": 3
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 552.8,
+        "y": 0,
+        "z": 0
+      },
+      "pointB": {
+        "x": 556,
+        "y": 548.8,
+        "z": 592.2
+      },
+      "pointC": {
+        "x": 556,
+        "y": 548.8,
+        "z": 0
+      },
+      "materialIndex": 3
+    }
+  ],
+  "backGroundColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+  }
+}

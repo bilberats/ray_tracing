@@ -1,0 +1,55 @@
+{
+  "backGroundColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+  },
+  "camera": {
+    "pWidth": 500,
+    "pHeight": 500,
+    "width": 50,
+    "height": 50,
+    "position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "focalDistance": 50,
+    "angleX": 0,
+    "angleY": 1.57079632679,
+    "angleZ": 0
+  },
+  "lights": [
+    {"position": {
+      "x":0,
+      "y": 0,
+      "z": 0
+    },
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "intensity": 1
+    }],
+  "shapes": [
+    {"shapeType": "sphere",
+      "center": {
+        "x": 500,
+        "y": 80,
+        "z": 30
+      },
+      "radius": 60,
+      "color": {
+        "r": 255,
+        "g": 0,
+        "b": 0
+      },
+      "material": {
+        "ambiant": 0.1,
+        "diffuse": 0.8,
+        "specular": 0.5,
+        "alpha": 50
+      }
+    }]
+}

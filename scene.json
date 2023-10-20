@@ -1,0 +1,224 @@
+{
+  "camera": {
+    "width": 50,
+    "height": 50,
+    "position": {
+      "x": 800,
+      "y": 0,
+      "z": 0
+    },
+    "angleX": 0,
+    "angleY": 1.5708,
+    "angleZ": 0,
+    "focalDistance": 50,
+    "focalLength": 100,
+    "apertureSize": 10
+  },
+  "materials": [
+    {
+      "roughness": 0,
+      "metallic": 0,
+      "emittance": 1,
+      "albedo": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0.6,
+      "metallic": 0.5,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0,
+      "metallic": 1,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0.5,
+      "metallic": 0.4,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 0
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0.5,
+      "metallic": 0.4,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 0,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    },
+    {
+      "roughness": 0.5,
+      "metallic": 0.4,
+      "emittance": 0,
+      "albedo": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "emittedColor": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      }
+    }
+  ],
+  "shapes": [
+    {"shapeType": "sphere",
+      "center": {
+        "x": -100,
+        "y": -180,
+        "z": 230
+      },
+      "radius": 300,
+      "materialIndex": 0
+    },
+    {"shapeType": "sphere",
+      "center": {
+        "x": 935,
+        "y": 60,
+        "z": 0
+      },
+      "radius": 60,
+      "materialIndex": 2
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 100,
+        "y": -100,
+        "z": 0
+      },
+      "pointB": {
+        "x": 150,
+        "y": -100,
+        "z": 50
+      },
+      "pointC": {
+        "x": 200,
+        "y": -70,
+        "z": 0
+      },
+      "materialIndex": 1
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 200,
+        "y": -130,
+        "z": 0
+      },
+      "pointB": {
+        "x": 150,
+        "y": -100,
+        "z": 50
+      },
+      "pointC": {
+        "x": 100,
+        "y": -100,
+        "z": 0
+      },
+      "materialIndex": 2
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 150,
+        "y": -100,
+        "z": 50
+      },
+      "pointB": {
+        "x": 200,
+        "y": -70,
+        "z": 0
+      },
+      "pointC": {
+        "x": 200,
+        "y": -130,
+        "z": 0
+      },
+      "materialIndex": 3
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 100,
+        "y": -100,
+        "z": 0
+      },
+      "pointB": {
+        "x": 200,
+        "y": -130,
+        "z": 0
+      },
+      "pointC": {
+        "x": 200,
+        "y": -70,
+        "z": 0
+      },
+      "materialIndex": 4
+    },
+    {"shapeType": "triangle",
+      "pointA": {
+        "x": 1000,
+        "y": -1000,
+        "z": -1000
+      },
+      "pointB": {
+        "x": 1000,
+        "y": 0,
+        "z": 1000
+      },
+      "pointC": {
+        "x": 1000,
+        "y": 1000,
+        "z": -1000
+      },
+      "materialIndex": 1
+    }
+  ],
+  "backGroundColor": {
+    "r": 0.1,
+    "g": 0.4,
+    "b": 0.9
+  }
+}
