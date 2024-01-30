@@ -25,8 +25,8 @@
 #define AASAMPLINGSIZE 1
 #define NUMBEROFBOUNCE 6
 #define SAMPLENUMBER 200
-#define SCENEPATH "C:\\Fernand\\programmation\\c++\\ray_tracing\\cornellBoxScene.json"
-#define RENDERPATH "C:\\Fernand\\programmation\\c++\\ray_tracing\\rendus\\"
+#define SCENEPATH "..\\cornellBoxScene.json"
+#define RENDERPATH "..\\rendus\\"
 
 
 
